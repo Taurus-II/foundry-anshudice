@@ -11,10 +11,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        ../images/numeral_d10_faces_04_four.png,
        ../images/numeral_d10_faces_05_five.png,
        ../images/numeral_d10_faces_06_six.png,
-       ../images/numeral_d10_faces_07_seven.png",
-       ../images/numeral_d10_faces_08_eight.png",
-       ../images/numeral_d10_faces_09_nine.png",
-       ../images/numeral_d10_faces_10_ten.png"
+       ../images/numeral_d10_faces_07_seven.png,
+       ../images/numeral_d10_faces_08_eight.png,
+       ../images/numeral_d10_faces_09_nine.png,
+       ../images/numeral_d10_faces_10_ten.png
      ],
      system: "UAD - Exalted" 
    },"d10");
