@@ -1,7 +1,8 @@
 
 Hooks.on('diceSoNiceReady', (dice3d) => {
-  dice3d.addSystem({ id: "UAD - Exalted", name: "UAD - Exalted" }, "default");
   
+  dice3d.addSystem({ id: "Exalted - Lunar", name: "Exalted - Lunar" }, "default");
+
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
@@ -14,12 +15,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "7",
        "8",
        "8",
-       "../images/numeral_d10_faces_10_ten.png"
+       "anshudice/images/lunar_10.png"
      ],
-     system: "UAD - Exalted" 
+	 bumpMaps: [,,,,,,,,,
+		"anshudice/images/lunar_10_BUMP.png"
+	 ],
+	 values: {min:1,max:10},
+     system: "Exalted - Lunar" 
    },"d10");
    
-  dice3d.addSystem({ id: "UAD - Lunar", name: "UAD - Lunar" }, "default");
+  dice3d.addSystem({ id: "Exalted - Solar", name: "Exalted - Solar" }, "default");
 
    dice3d.addDicePreset({
      type: "d10",
@@ -33,47 +38,13 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "7",
        "8",
        "8",
-       "../images/lunar_d10_faces_10_ten.png"
+       "anshudice/images/solar_10.png"
      ],
-     system: "UAD - Lunar" 
-   },"d10");
-   
-  dice3d.addSystem({ id: "UAD - Solar", name: "UAD - Solar" }, "default");
-
-   dice3d.addDicePreset({
-     type: "d10",
-	      labels: [
-       "1",
-       "2",
-       "3",
-       "4",
-       "5",
-       "6",
-       "7",
-       "8",
-       "8",
-       "../images/solar_d10_faces_10_ten.png"
-     ],
-     system: "UAD - Solar" 
-   },"d10");
-
-  dice3d.addSystem({ id: "UAD - Little Dragon", name: "UAD - Little Dragon" }, "default");
-
-   dice3d.addDicePreset({
-     type: "d10",
-	      labels: [
-       "1",
-       "2",
-       "3",
-       "4",
-       "5",
-       "6",
-       "7",
-       "8",
-       "8",
-       "../images/anshu_d10_faces_10_ten.png"
-     ],
-     system: "UAD - Little Dragon" 
+	 bumpMaps: [,,,,,,,,,
+		"anshudice/images/solar_10_BUMP.png"
+	 ],
+	 values: {min:1,max:10},
+     system: "Exalted - Solar" 
    },"d10");
 	
 });
