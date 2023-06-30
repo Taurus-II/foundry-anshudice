@@ -5,16 +5,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
-       ../images/numeral_d10_faces_01_one.png,
-       ../images/numeral_d10_faces_02_two.png,
-       ../images/numeral_d10_faces_03_three.png,
-       ../images/numeral_d10_faces_04_four.png,
-       ../images/numeral_d10_faces_05_five.png,
-       ../images/numeral_d10_faces_06_six.png,
-       ../images/numeral_d10_faces_07_seven.png,
-       ../images/numeral_d10_faces_08_eight.png,
-       ../images/numeral_d10_faces_09_nine.png,
-       ../images/numeral_d10_faces_10_ten.png
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "8",
+       "../images/numeral_d10_faces_10_ten.png"
      ],
      system: "UAD - Exalted" 
    },"d10");
@@ -24,16 +24,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
-       ../images/numeral_d10_faces_01_one.png,
-       ../images/numeral_d10_faces_02_two.png,
-       ../images/numeral_d10_faces_03_three.png,
-       ../images/numeral_d10_faces_04_four.png,
-       ../images/numeral_d10_faces_05_five.png,
-       ../images/numeral_d10_faces_06_six.png,
-       ../images/numeral_d10_faces_07_seven.png,
-       ../images/numeral_d10_faces_08_eight.png,
-       ../images/numeral_d10_faces_09_nine.png,
-       ../images/lunar_d10_faces_10_ten.png
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "8",
+       "../images/lunar_d10_faces_10_ten.png"
      ],
      system: "UAD - Lunar" 
    },"d10");
@@ -43,16 +43,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
-       ../images/numeral_d10_faces_01_one.png,
-       ../images/numeral_d10_faces_02_two.png,
-       ../images/numeral_d10_faces_03_three.png,
-       ../images/numeral_d10_faces_04_four.png,
-       ../images/numeral_d10_faces_05_five.png,
-       ../images/numeral_d10_faces_06_six.png,
-       ../images/numeral_d10_faces_07_seven.png,
-       ../images/numeral_d10_faces_08_eight.png,
-       ../images/numeral_d10_faces_09_nine.png,
-       ../images/solar_d10_faces_10_ten.png
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "8",
+       "../images/solar_d10_faces_10_ten.png"
      ],
      system: "UAD - Solar" 
    },"d10");
@@ -62,16 +62,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
    dice3d.addDicePreset({
      type: "d10",
 	      labels: [
-       ../images/numeral_d10_faces_01_one.png,
-       ../images/numeral_d10_faces_02_two.png,
-       ../images/numeral_d10_faces_03_three.png,
-       ../images/numeral_d10_faces_04_four.png,
-       ../images/numeral_d10_faces_05_five.png,
-       ../images/numeral_d10_faces_06_six.png,
-       ../images/numeral_d10_faces_07_seven.png,
-       ../images/numeral_d10_faces_08_eight.png,
-       ../images/numeral_d10_faces_09_nine.png,
-       ../images/anshu_d10_faces_10_ten.png
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "8",
+       "../images/anshu_d10_faces_10_ten.png"
      ],
      system: "UAD - Little Dragon" 
    },"d10");
