@@ -1,28 +1,42 @@
- {
-    "name": "anshudice",
-    "title": "Anshu's Exalted Dice for Dice So Nice",
-    "description": "Additional Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
-    "version": "0.1",
-	"author": "Taurus-II",
+{
+	"id": "anshudice",
+	"name": "anshuudice",
+	"title": "Anshu's Exalted Dice for Dice So Nice",
+	"description": "Exalted-themed dice presets for Dice So Nice. Requires Dice So Nice module to work.",
+	"version": "This is auto replaced",
+	"library": "false",
+	"compatibility": {
+    "minimum": "9",
+    "verified": "11",
+	"maximum": "11"
+  },
 	"authors": [
 		{
 			"name":"anshu0783", 
 			"url": "https://discord.com/users/251056484954144771"
 		}
 	],
-	"minimumCoreVersion": "0.7.5",
-    "compatibleCoreVersion": "0.7.5",
-	"dependencies": [
-			{
-			  "name": "dice-so-nice",
-			  "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
-			}
+	"relationships": {
+		"requires": [{
+			"id": "dice-so-nice",
+			"type": "module",
+			"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+	  }]
+	},
+	"conflicts": [
+    
 	],
-	"styles": [
-		"dicestyle.css"
+	"esmodules": [
+  
 	],
 	"scripts": [
 		"scripts/anshudice.js"
+	],
+		"styles": [
+		"dicestyle.css"
+	],
+	"languages": [
+
 	],
 	"url": "https://github.com/Taurus-II/foundry-anshudice",
 	"manifest": "https://raw.githubusercontent.com/Taurus-II/foundry-anshudice/main/anshudice/module.json",
