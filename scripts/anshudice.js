@@ -14,10 +14,11 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "6",
        "7",
        "8",
-       "8",
+       "9",
        "☽"
      ],
 	 font: "Examorphous",
+	 fontScale: "2",
 	 values: {min:1,max:10},
      system: "Exalted - Lunar" 
    },"d10");
@@ -35,15 +36,16 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "6",
        "7",
        "8",
-       "8",
+       "9",
        "☀"
      ],
 	 font: "Examorphous",
+	 fontScale: "2",
 	 values: {min:1,max:10},
      system: "Exalted - Solar" 
    },"d10");
    
-  dice3d.addSystem({ id: "Exalted - Solar", name: "Exalted - Little Dragon" }, "default");
+  dice3d.addSystem({ id: "Exalted - Little Dragon", name: "Exalted - Little Dragon" }, "default");
 
    dice3d.addDicePreset({
      type: "d10",
@@ -56,10 +58,11 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "6",
        "7",
        "8",
-       "8",
+       "9",
        "⚖"
      ],
 	 font: "Examorphous",
+	 fontScale: "2",
 	 values: {min:1,max:10},
      system: "Exalted - Little Dragon" 
    },"d10");
