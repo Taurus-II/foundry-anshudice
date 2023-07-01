@@ -3,7 +3,7 @@
 	"name": "anshuudice",
 	"title": "Anshu's Exalted Dice for Dice So Nice",
 	"description": "Exalted-themed dice presets for Dice So Nice. Requires Dice So Nice module to work.",
-	"version": "0.1-alpha.10",
+	"version": "0.1-alpha.11",
 	"library": "false",
 	"compatibility": {
     "minimum": "9",
