@@ -18,7 +18,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☽"
      ],
 	 font: "Examorphous",
-	 fontScale: "1.1",
 	 values: {min:1,max:10},
      system: "Exalted - Lunar" 
    },"d10");
@@ -40,7 +39,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☀"
      ],
 	 font: "Examorphous",
-	 fontScale: "1.1",
 	 values: {min:1,max:10},
      system: "Exalted - Solar" 
    },"d10");
@@ -62,7 +60,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "⚖"
      ],
 	 font: "Examorphous",
-	 fontScale: "1.1",
 	 values: {min:1,max:10},
      system: "Exalted - Little Dragon" 
    },"d10");
