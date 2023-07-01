@@ -15,10 +15,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "7",
        "8",
        "8",
-       "anshudice/images/lunar_10.png"
+       "modules/anshudice/images/lunar_10.png"
      ],
 	 bumpMaps: [,,,,,,,,,
-		"anshudice/images/lunar_10_BUMP.png"
+		"modules/anshudice/images/lunar_10_BUMP.png"
 	 ],
 	 values: {min:1,max:10},
      system: "Exalted - Lunar" 
@@ -41,7 +41,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "anshudice/images/solar_10.png"
      ],
 	 bumpMaps: [,,,,,,,,,
-		"anshudice/images/solar_10_BUMP.png"
+		"modules/anshudice/images/solar_10_BUMP.png"
 	 ],
 	 values: {min:1,max:10},
      system: "Exalted - Solar" 
