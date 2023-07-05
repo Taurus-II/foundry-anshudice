@@ -19,7 +19,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "1 Solar",
      system: "☸︎ Solar" 
    },"d10");
    
@@ -63,7 +62,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "2 Lunar",
      system: "☸︎ Lunar" 
    },"d10");
 
@@ -85,7 +83,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "3 Mercury",
      system: "☸︎ Mercury" 
    },"d10");
 
@@ -107,7 +104,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "4 Venus",
      system: "☸︎ Venus" 
    },"d10");
 
@@ -129,7 +125,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "5 Mars",
      system: "☸︎ Mars" 
    },"d10");
 
@@ -151,7 +146,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "6 Jupiter",
      system: "☸︎ Jupiter" 
    },"d10");
 
@@ -173,7 +167,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
      ],
 	 font: "Examorphous",
 	 values: {min:1,max:10},
-	 colorset: "7 Saturn",
      system: "☸︎ Saturn" 
    },"d10");
 
@@ -185,7 +178,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#ffcc00",
 	 outline: "#804d1a",
 	 edge: "#ffcc00",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "metal",
 	 }, "default");
    
@@ -197,7 +190,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#808080",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "metal",
 	 }, "default");
    
@@ -209,7 +202,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#808000",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "iridescent",
 	 }, "default");
 	
@@ -221,7 +214,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#000080",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "iridescent",
 	 }, "default");
 	 
@@ -233,7 +226,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#800000",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "iridescent",
 	 }, "default");
 	 
@@ -245,7 +238,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#006600",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "iridescent",
 	 }, "default");
 	 
@@ -257,7 +250,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#c0c0c0",
 	 outline: "#400040",
 	 edge: "#c0c0c0",
-	 texture: "Bronze - 4",
+	 texture: "bronze04",
 	 material: "iridescent",
 	 }, "default");
 
@@ -269,7 +262,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#0080c0",
 	 outline: "#004080",
 	 edge: "#0080c0",
-	 texture: "Astral Sea",
+	 texture: "astral",
 	 material: "glass",
 	 }, "default");
 
@@ -305,7 +298,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#000040",
 	 outline: "#0000ff",
 	 edge: "#000040",
-	 texture: "Astral Sea",
+	 texture: "astral",
 	 material: "glass",
 	 }, "default");
 

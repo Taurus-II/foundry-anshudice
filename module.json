@@ -3,7 +3,7 @@
 	"name": "anshuudice",
 	"title": "Anshu's Auspicious Divination Stones",
 	"description": "Exalted-themed dice presets for Dice So Nice. Requires Dice So Nice module to work.",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"library": "false",
 	"compatibility": {
     "minimum": "9",
