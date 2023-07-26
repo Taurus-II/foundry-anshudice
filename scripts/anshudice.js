@@ -274,7 +274,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#ffffcc",
 	 outline: "#404040",
 	 edge: "#ffffcc",
-	 texture: "Ice",
+	 texture: "ice",
 	 material: "glass",
 	 }, "default");
 
@@ -286,7 +286,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#ff0000",
 	 outline: "#400000",
 	 edge: "#ff0000",
-	 texture: "Ice",
+	 texture: "ice",
 	 material: "glass",
 	 }, "default");
 
@@ -310,7 +310,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#004000",
 	 outline: "#004000",
 	 edge: "#004000",
-	 texture: "Wood",
+	 texture: "wood",
 	 material: "glass",
 	 }, "default");
 
