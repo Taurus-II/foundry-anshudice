@@ -1,3 +1,11 @@
+Hooks.on("init", () => {
+    
+    CONFIG.fontDefinitions["Examorphous"] = {
+  editor: true,
+  fonts: [
+    {urls: ["modules/anshudice/fonts/Examorphous.woff2"]}
+        ]
+    };
 
 Hooks.on('diceSoNiceReady', (dice3d) => {
   
@@ -18,7 +26,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☀"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Solar" 
    },"d10");
    
@@ -39,7 +46,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "⚖"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
 	 colorset: "1 Solar",
      system: "☸︎ Little Dragon" 
    },"d10");
@@ -61,7 +67,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☽"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Lunar" 
    },"d10");
 
@@ -82,7 +87,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☿"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Mercury" 
    },"d10");
 
@@ -103,7 +107,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "♀"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Venus" 
    },"d10");
 
@@ -124,7 +127,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "♂"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Mars" 
    },"d10");
 
@@ -145,7 +147,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "♃"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Jupiter" 
    },"d10");
 
@@ -166,7 +167,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "♄"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Saturn" 
    },"d10");
    
@@ -185,7 +185,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☁"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Air" 
    },"d10");
    
@@ -204,7 +203,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "♁"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Earth" 
    },"d10");
    
@@ -223,7 +221,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "⚛"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Fire" 
    },"d10");
    
@@ -242,7 +239,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☂"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Water" 
    },"d10");
    
@@ -261,7 +257,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
        "☘"
      ],
 	 font: "Examorphous",
-	 values: {min:1,max:10},
      system: "☸︎ Wood" 
    },"d10");
 
@@ -275,6 +270,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#ffcc00",
 	 texture: "bronze04",
 	 material: "metal",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
    
    dice3d.addColorset({ 
@@ -287,6 +291,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "metal",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
    
    dice3d.addColorset({ 
@@ -299,6 +312,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "iridescent",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 	
    dice3d.addColorset({ 
@@ -311,6 +333,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "iridescent",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 	 
    dice3d.addColorset({ 
@@ -323,6 +354,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "iridescent",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 	 
    dice3d.addColorset({ 
@@ -335,6 +375,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "iridescent",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 	 
    dice3d.addColorset({ 
@@ -347,6 +396,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#c0c0c0",
 	 texture: "bronze04",
 	 material: "iridescent",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
    dice3d.addColorset({ 
@@ -359,6 +417,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#0080c0",
 	 texture: "astral",
 	 material: "glass",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
    dice3d.addColorset({ 
@@ -371,6 +438,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#ffffcc",
 	 texture: "ice02",
 	 material: "glass",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
    dice3d.addColorset({ 
@@ -383,6 +459,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#ff0000",
 	 texture: "ice02",
 	 material: "glass",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
    dice3d.addColorset({ 
@@ -395,6 +480,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#000040",
 	 texture: "astral",
 	 material: "glass",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
    dice3d.addColorset({ 
@@ -407,6 +501,15 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 edge: "#004000",
 	 texture: "wood",
 	 material: "glass",
+	 fontScale: {
+          "d100":0.8,
+		  "d20": 0.9,
+          "d12":1.0,
+		  "d10": 0.9,
+		  "d8": 0.9,
+          "d6":1.2,
+          "d2":1.3
+        },
 	 }, "default");
 
 });
