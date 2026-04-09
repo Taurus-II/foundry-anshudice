@@ -169,6 +169,101 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 values: {min:1,max:10},
      system: "☸︎ Saturn" 
    },"d10");
+   
+   dice3d.addDicePreset({
+     type: "d10",
+	      labels: [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "☁"
+     ],
+	 font: "Examorphous",
+	 values: {min:1,max:10},
+     system: "☸︎ Air" 
+   },"d10");
+   
+   dice3d.addDicePreset({
+     type: "d10",
+	      labels: [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "♁"
+     ],
+	 font: "Examorphous",
+	 values: {min:1,max:10},
+     system: "☸︎ Earth" 
+   },"d10");
+   
+   dice3d.addDicePreset({
+     type: "d10",
+	      labels: [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "⚛"
+     ],
+	 font: "Examorphous",
+	 values: {min:1,max:10},
+     system: "☸︎ Fire" 
+   },"d10");
+   
+   dice3d.addDicePreset({
+     type: "d10",
+	      labels: [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "☂"
+     ],
+	 font: "Examorphous",
+	 values: {min:1,max:10},
+     system: "☸︎ Water" 
+   },"d10");
+   
+   dice3d.addDicePreset({
+     type: "d10",
+	      labels: [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "☘"
+     ],
+	 font: "Examorphous",
+	 values: {min:1,max:10},
+     system: "☸︎ Wood" 
+   },"d10");
 
    dice3d.addColorset({ 
 	 name: "1 Solar",
@@ -274,7 +369,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 background: "#ffffcc",
 	 outline: "#404040",
 	 edge: "#ffffcc",
-	 texture: "ice",
+	 texture: "ice02",
 	 material: "glass",
 	 }, "default");
 
@@ -282,11 +377,11 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	 name: "8 Fire",
 	 description: "8 Fire",
 	 category: "☸ Exalted",
-	 foreground: "#ff8080",
+	 foreground: "#ff9999",
 	 background: "#ff0000",
 	 outline: "#400000",
 	 edge: "#ff0000",
-	 texture: "ice",
+	 texture: "ice02",
 	 material: "glass",
 	 }, "default");
 
